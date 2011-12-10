@@ -1,0 +1,23 @@
+This is an example of using cmProject and auto.mk together.
+
+First clone the example repository:
+
+    git clone https://github.com/kanaka/cmProject_example
+
+The first time after you clone a cmProject based project repository,
+you need to bootstrap by manually populating the cmProject directory.
+
+    cd cmProject_example
+    git clone https://github.com/kanaka/cmProject
+
+Now you can populate the project:
+
+    make pop
+
+To show cmProject help:
+
+    make help^cmProject
+
+To show auto.mk help
+
+    make help^auto.mk

@@ -1,0 +1,11 @@
+############################################################
+# See README for help and examples.
+# Required stub entry (for pegging)
+cmProject_SRC ?= 
+############################################################
+
+auto.mk_SRC = https://github.com/kanaka/auto.mk.git
+auto.mk_SRC_TYPE = git
+
+# Local, not checked-out
+simple_SRC =
