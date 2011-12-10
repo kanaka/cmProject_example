@@ -10,9 +10,17 @@ you need to bootstrap by manually populating the cmProject directory.
     cd cmProject_example
     git clone https://github.com/kanaka/cmProject
 
-Now you can populate the project:
+Now you can populate the whole project:
 
     make pop
+
+Build the whole project:
+
+    make
+
+Run the resulting program:
+
+    ./build/simple/simple
 
 To show cmProject help:
 
